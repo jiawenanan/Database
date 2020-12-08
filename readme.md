@@ -15,7 +15,7 @@ Some explanation for our schema which may arouse your confusion:
 -----------------------------------------
 
 Third Step:
-(Please run data_pre_norm.py to do data cleaning and database normalization)
+(Please run data_preprocessing.py to do data cleaning and database normalization)
 Since the source of our four databases are different, the formats of data are also different, which requires a lot of data cleaning work without the data loss.
 Also, in order to avoid data redundancy, we need normalization which requires more data preprocessing work. 
 
