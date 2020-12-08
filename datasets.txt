@@ -1,0 +1,4 @@
+https://data.ny.gov/api/views/9a8c-vfzj/rows.csv?accessType=DOWNLOAD&sorting=true
+https://data.ny.gov/api/views/34dd-6g2j/rows.csv?accessType=DOWNLOAD
+http://files.zillowstatic.com/research/public_v2/zhvi/County_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv
+https://data.ny.gov/api/views/m2rg-xjan/rows.csv?accessType=DOWNLOAD&sorting=true
