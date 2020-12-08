@@ -37,12 +37,12 @@ after data manipulation, we noticed that even ['zipcode'] + ['city'] cannot dete
 the explanation we fetch from the google: google gives the explanation as:Some cities cross into five different counties and as many as 20% of the ZIP Codes cross county lines)
 
 
-
 Five Step:
-(Now, you can explore our database by the API we provide to you)
+(Now, you can explore our database by the API we provide to you by running final_application.py in terminal)
+
+continue....
 1
 2
 3
 4
 5
-6
