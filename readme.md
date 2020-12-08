@@ -8,17 +8,18 @@ Notice！One of the original url will download a .zip file, our python code in s
 -----------------------------------------
 
 Second Step:
-(Please run schema.sql to create the schema)
-Some explanation for our schema which may arouse your confusion:
-1 For food datasets, why drop
-
------------------------------------------
-
-Third Step:
 (Please run data_preprocessing.py to do data cleaning and database normalization)
 Since the source of our four databases are different, the formats of data are also different, which requires a lot of data cleaning work without the data loss.
 Also, in order to avoid data redundancy, we need normalization which requires more data preprocessing work. 
 
+-----------------------------------------
+
+Third Step:
+
+(Please run schema.sql to create the schema)
+Some explanation for our schema which may arouse your confusion:
+1 For food datasets, why drop
+This file will also load the preprocessed data into the database
 -----------------------------------------
 
 Fourth Step:
