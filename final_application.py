@@ -127,20 +127,20 @@ def user_interface_loop ():
 
 
 def press_any_key_exit(msg):
-  fd = sys.stdin.fileno()
-  old_ttyinfo = termios.tcgetattr(fd)
-  new_ttyinfo = old_ttyinfo[:]
-  new_ttyinfo[3] &= ~termios.ICANON
-  new_ttyinfo[3] &= ~termios.ECHO
-  sys.stdout.write(msg)
-  sys.stdout.flush()
-  termios.tcsetattr(fd, termios.TCSANOW, new_ttyinfo)
-  os.read(fd, 7)
-  termios.tcsetattr(fd, termios.TCSANOW, old_ttyinfo)
+    fd = sys.stdin.fileno()
+    old_ttyinfo = termios.tcgetattr(fd)
+    new_ttyinfo = old_ttyinfo[:]
+    new_ttyinfo[3] &= ~termios.ICANON
+    new_ttyinfo[3] &= ~termios.ECHO
+    sys.stdout.write(msg)
+    sys.stdout.flush()
+    termios.tcsetattr(fd, termios.TCSANOW, new_ttyinfo)
+    os.read(fd, 7)
+    termios.tcsetattr(fd, termios.TCSANOW, old_ttyinfo)
 
 
 if __name__ == "__main__":
-  press_any_key_exit("Press any key to continue :)")
+    press_any_key_exit("Press any key to continue :)")
 
 
 
