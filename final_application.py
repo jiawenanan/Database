@@ -1,9 +1,7 @@
-import unittest
 import psycopg2
 import psycopg2.extras
 import datetime
 from datetime import datetime
-import argparse
 import os
 import sys
 import termios
